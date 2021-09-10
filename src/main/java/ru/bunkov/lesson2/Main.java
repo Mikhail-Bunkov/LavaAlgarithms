@@ -5,14 +5,17 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        int n = 20000;
+        int n = 20;
         ArrayGenerator generator = new ArrayGenerator();
-        List<Notebook> arr = generator.generate(n);
-//        arr.forEach(System.out::println); //для проверки правильности генерации.
+        List<Notebook> arr = new ArrayList<>();
+        arr = generator.generate(n);
+        BubbleSort bubbleSort = new BubbleSort();
+        arr.forEach(System.out::println);
         System.out.println("Начало сортировки");
         long start = System.currentTimeMillis();
         //sort
-
+        bubbleSort.sort(arr, n);
+        arr.forEach(System.out::println);
         System.out.println(System.currentTimeMillis() - start);
     }
 }

@@ -34,6 +34,22 @@ public class Notebook {
         return logo;
     }
 
+    public int convertLogoToInt(String logo){
+        logo = this.logo;
+        switch (logo) {
+            case "Lenuvo":
+                return 0;
+            case "Asos":
+                return 1;
+            case "MacNote":
+                return 2;
+            case "Eser":
+                return 3;
+            default:
+                return 4;
+        }
+    }
+
     public void setLogo(String logo) {
         this.logo = logo;
     }
