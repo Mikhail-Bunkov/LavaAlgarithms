@@ -26,7 +26,6 @@ public class TwoSideLinkedListImpl<E> extends SimpleLinkedListImpl<E> implements
         size++;
     }
 
-
     @Override
     public E getLast() {
         return getValue(lastElement);

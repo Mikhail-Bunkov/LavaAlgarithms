@@ -4,7 +4,7 @@ import ru.bunkov.lesson4.LinkedQueueImpl;
 import ru.bunkov.lesson4.TwoSideLinkedList;
 import ru.bunkov.lesson4.TwoSideLinkedListImpl;
 
-public class DequeImpl<E> {
+public class DequeImpl<E>  {
 
     private final TwoSideLinkedList<E> data;
     private int size =0;

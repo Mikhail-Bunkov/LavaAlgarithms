@@ -13,5 +13,10 @@ public class TestMain4 {
         list.removeLeft();
         list.removeRight();
         list.display();
+        var linkedList = new TwoSideLinkedListImpl<Integer>();
+//        for(Integer value: linkedList){
+//            System.out.println(value);
+//        }
     }
+
 }
