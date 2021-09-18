@@ -1,4 +1,4 @@
-package ru.bunkov.lesson3.queue;
+package ru.bunkov.lesson3;
 
 public interface Queue<E> {
 
