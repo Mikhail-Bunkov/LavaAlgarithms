@@ -1,6 +1,6 @@
 package ru.bunkov.lesson4;
 
-import lesson3.queue.Queue;
+import ru.bunkov.lesson3.queue.Queue;
 
 public class LinkedQueueImpl<E> implements Queue<E> {
 

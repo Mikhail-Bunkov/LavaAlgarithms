@@ -1,6 +1,6 @@
 package ru.bunkov.lesson4;
 
-import lesson3.stack.Stack;
+import ru.bunkov.lesson3.stack.Stack;
 
 public class LinkedListStack<E> implements Stack<E> {
 

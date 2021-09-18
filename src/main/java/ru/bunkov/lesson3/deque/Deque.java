@@ -1,7 +1,7 @@
 package ru.bunkov.lesson3.deque;
 
 
-import lesson3.queue.Queue;
+import ru.bunkov.lesson3.queue.Queue;
 
 public interface Deque<E> extends Queue<E> {
 
