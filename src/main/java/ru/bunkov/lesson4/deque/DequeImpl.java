@@ -45,10 +45,13 @@ public class DequeImpl<E>  {
         data.remove(data.getLast());
     }
 
-    public E peekFront() {
+    public E peekLeft() {
         return data.getFirst();
     }
 
+    public E peekRight() {
+        return data.getLast();
+    }
     public int size() {
         return size;
     }
